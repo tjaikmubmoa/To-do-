@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE53EB5F1E583949004189E0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB5E1E583949004189E0 /* CustomTableViewCell.swift */; };
+		CE53EB611E583E0E004189E0 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB601E583E0E004189E0 /* TodoList.swift */; };
 		CE55F9651E581DDC00DE6969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55F9641E581DDC00DE6969 /* AppDelegate.swift */; };
 		CE55F9671E581DDC00DE6969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55F9661E581DDC00DE6969 /* ViewController.swift */; };
 		CE55F96A1E581DDC00DE6969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55F9681E581DDC00DE6969 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		CE55F96F1E581DDC00DE6969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE55F96D1E581DDC00DE6969 /* LaunchScreen.storyboard */; };
 		CE55F97A1E581DDC00DE6969 /* To_doTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55F9791E581DDC00DE6969 /* To_doTests.swift */; };
 		CE55F9851E581DDC00DE6969 /* To_doUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55F9841E581DDC00DE6969 /* To_doUITests.swift */; };
+		CE55F9931E5820DB00DE6969 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55F9921E5820DB00DE6969 /* TodoViewController.swift */; };
+		CED696331EBDE14D004EA737 /* camera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED696321EBDE14D004EA737 /* camera.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE53EB5E1E583949004189E0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CE53EB601E583E0E004189E0 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		CE55F9611E581DDC00DE6969 /* To do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE55F9641E581DDC00DE6969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE55F9661E581DDC00DE6969 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		CE55F9801E581DDC00DE6969 /* To doUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To doUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE55F9841E581DDC00DE6969 /* To_doUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_doUITests.swift; sourceTree = "<group>"; };
 		CE55F9861E581DDC00DE6969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE55F9921E5820DB00DE6969 /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		CED696321EBDE14D004EA737 /* camera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camera.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				CE55F9631E581DDC00DE6969 /* To do */,
-				CE55F9781E581DDC00DE6969 /* To doTests */,
 				CE55F9831E581DDC00DE6969 /* To doUITests */,
 				CE55F9621E581DDC00DE6969 /* Products */,
 			);
@@ -97,12 +104,17 @@
 		CE55F9631E581DDC00DE6969 /* To do */ = {
 			isa = PBXGroup;
 			children = (
+				CED696321EBDE14D004EA737 /* camera.jpg */,
 				CE55F9641E581DDC00DE6969 /* AppDelegate.swift */,
+				CE53EB5E1E583949004189E0 /* CustomTableViewCell.swift */,
+				CE53EB601E583E0E004189E0 /* TodoList.swift */,
 				CE55F9661E581DDC00DE6969 /* ViewController.swift */,
+				CE55F9921E5820DB00DE6969 /* TodoViewController.swift */,
 				CE55F9681E581DDC00DE6969 /* Main.storyboard */,
 				CE55F96B1E581DDC00DE6969 /* Assets.xcassets */,
 				CE55F96D1E581DDC00DE6969 /* LaunchScreen.storyboard */,
 				CE55F9701E581DDC00DE6969 /* Info.plist */,
+				CE55F9781E581DDC00DE6969 /* To doTests */,
 			);
 			path = "To do";
 			sourceTree = "<group>";
@@ -114,7 +126,7 @@
 				CE55F97B1E581DDC00DE6969 /* Info.plist */,
 			);
 			path = "To doTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		CE55F9831E581DDC00DE6969 /* To doUITests */ = {
 			isa = PBXGroup;
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					CE55F9601E581DDC00DE6969 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5Y443K668E;
 						ProvisioningStyle = Automatic;
 					};
 					CE55F9741E581DDC00DE6969 = {
@@ -234,6 +247,7 @@
 			files = (
 				CE55F96F1E581DDC00DE6969 /* LaunchScreen.storyboard in Resources */,
 				CE55F96C1E581DDC00DE6969 /* Assets.xcassets in Resources */,
+				CED696331EBDE14D004EA737 /* camera.jpg in Resources */,
 				CE55F96A1E581DDC00DE6969 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE53EB611E583E0E004189E0 /* TodoList.swift in Sources */,
+				CE55F9931E5820DB00DE6969 /* TodoViewController.swift in Sources */,
 				CE55F9671E581DDC00DE6969 /* ViewController.swift in Sources */,
+				CE53EB5F1E583949004189E0 /* CustomTableViewCell.swift in Sources */,
 				CE55F9651E581DDC00DE6969 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y443K668E;
 				INFOPLIST_FILE = "To do/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.To-do";
@@ -422,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y443K668E;
 				INFOPLIST_FILE = "To do/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.To-do";
@@ -503,6 +522,7 @@
 				CE55F98B1E581DDC00DE6969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE55F98C1E581DDC00DE6969 /* Build configuration list for PBXNativeTarget "To doTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +531,7 @@
 				CE55F98E1E581DDC00DE6969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE55F98F1E581DDC00DE6969 /* Build configuration list for PBXNativeTarget "To doUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +540,7 @@
 				CE55F9911E581DDC00DE6969 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
