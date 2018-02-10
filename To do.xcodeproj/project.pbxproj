@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1A93A0202ED36D00F80E8B /* aaa.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1A939F202ED36D00F80E8B /* aaa.png */; };
 		CE53EB5F1E583949004189E0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB5E1E583949004189E0 /* CustomTableViewCell.swift */; };
 		CE53EB611E583E0E004189E0 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB601E583E0E004189E0 /* TodoList.swift */; };
 		CE55F9651E581DDC00DE6969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55F9641E581DDC00DE6969 /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1A939F202ED36D00F80E8B /* aaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaa.png; sourceTree = "<group>"; };
 		CE53EB5E1E583949004189E0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE53EB601E583E0E004189E0 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		CE55F9611E581DDC00DE6969 /* To do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				CE53EB601E583E0E004189E0 /* TodoList.swift */,
 				CE55F9661E581DDC00DE6969 /* ViewController.swift */,
 				CE55F9921E5820DB00DE6969 /* TodoViewController.swift */,
+				CE1A939F202ED36D00F80E8B /* aaa.png */,
 				CE55F9681E581DDC00DE6969 /* Main.storyboard */,
 				CE55F96B1E581DDC00DE6969 /* Assets.xcassets */,
 				CE55F96D1E581DDC00DE6969 /* LaunchScreen.storyboard */,
@@ -247,6 +250,7 @@
 			files = (
 				CE55F96F1E581DDC00DE6969 /* LaunchScreen.storyboard in Resources */,
 				CE55F96C1E581DDC00DE6969 /* Assets.xcassets in Resources */,
+				CE1A93A0202ED36D00F80E8B /* aaa.png in Resources */,
 				CED696331EBDE14D004EA737 /* camera.jpg in Resources */,
 				CE55F96A1E581DDC00DE6969 /* Main.storyboard in Resources */,
 			);
