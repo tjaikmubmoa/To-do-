@@ -45,7 +45,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9P-8l-az0">
-                                                    <rect key="frame" x="243" y="59" width="124" height="22"/>
+                                                    <rect key="frame" x="121" y="66" width="124" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1126" y="-55"/>
+            <point key="canvasLocation" x="495" y="-55"/>
         </scene>
         <!--Todo-->
         <scene sceneID="52b-kh-Tuq">
@@ -152,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iNv-Jz-tdj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1975" y="-55"/>
+            <point key="canvasLocation" x="1465" y="-55"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EHv-qZ-RWb">
@@ -170,7 +170,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6aZ-Vl-GLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2" y="-55"/>
+            <point key="canvasLocation" x="-399" y="-55"/>
         </scene>
     </scenes>
     <resources>

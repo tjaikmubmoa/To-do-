@@ -148,7 +148,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 editBool = false
                 if editBool == false {
                     
-                    
                 }
                 
                 
